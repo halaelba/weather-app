@@ -4,10 +4,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Prerequisites: 
-Angular CLI: 12.2.14
-Node: 12.22.7
-Package Manager: npm 6.14.15
+##Prerequisites: 
+Angular CLI: 12.2.14.
+Node: 12.22.7.
+Package Manager: npm 6.14.15.
 
 
 Run `npm install` inside weather-app directory 
