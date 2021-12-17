@@ -1,5 +1,6 @@
 $white-color: #E8E8E8;
 $grey-color: #989696;
+$black-color: #171717;
 
 .weather-component {
   background:
@@ -15,14 +16,34 @@ $grey-color: #989696;
 
     .header {
       text-align: center;
-      padding: 150px 0;
+      padding: 100px 0;
       font-size: 4rem;
       font-weight: 100;
       color: $white-color;
     }
 
+    .city-selection-form {
+      min-width: 150px;
+      max-width: 500px;
+      width: 100%;
+
+      .form-field {
+        width: 100%;
+      }
+
+      ::ng-deep .mat-form-field-appearance-fill {
+        .mat-form-field-flex {
+          background-color: $grey-color;
+        }
+      }
+
+      input.mat-input-element{
+        color: $black-color;
+      }
+    }
+
     .weather-card {
-      background: #171717;
+      background: $black-color;
       color: $grey-color;
 
       .title {
@@ -61,4 +82,9 @@ $grey-color: #989696;
       }
     }
   }
+
+}
+
+.mat-option {
+  background-color: $white-color;
 }
