@@ -1,0 +1,64 @@
+$white-color: #E8E8E8;
+$grey-color: #989696;
+
+.weather-component {
+  background:
+    linear-gradient(rgba(6, 6, 6, 0.98), rgb(4 4 4 / 88%)),
+    url(../../assets/images/background.jpg);
+  height: 100%;
+  background-size: cover;
+  color: $grey-color;
+
+  .container {
+    max-width: 500px;
+    margin: auto;
+
+    .header {
+      text-align: center;
+      padding: 150px 0;
+      font-size: 4rem;
+      font-weight: 100;
+      color: $white-color;
+    }
+
+    .weather-card {
+      background: #171717;
+      color: $grey-color;
+
+      .title {
+        font-weight: 100;
+        color: $white-color;
+      }
+
+      .subtitle {
+        font-size: 14px
+      }
+
+      .content {
+        .left-side {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .text {
+            font-size: 4rem;
+            color: $white-color;
+          }
+
+          .image {
+            margin-left: -15px;
+          }
+        }
+
+        .right-side {
+          text-align: right;
+          line-height: 1;
+        }
+      }
+
+      .description:first-letter {
+        text-transform: uppercase
+      }
+    }
+  }
+}
