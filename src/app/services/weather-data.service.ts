@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 export class WeatherDataService {
 
   private apiUrl: string = 'https://api.openweathermap.org/data/2.5/';
-  private apiId: string = 'f4d73c6adec9b48e7a591cf43d1f20ab';
+  private apiId: string = '';
 
   constructor(private http: HttpClient) { }
 
